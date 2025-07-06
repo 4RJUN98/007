@@ -3,7 +3,7 @@ module.exports.config = {
   name: "admin2",
   version: "1.0.1",
   hasPermssion: 0,
-  credits: "𝙋𝙧𝙞𝙮𝙖𝙣𝙨𝙝 𝙍𝙖𝙟𝙥𝙪𝙩", 
+  credits: "𝐀𝐫𝐣𝐮𝐧 𝙍𝙖𝙟𝙥𝙪𝙩", 
   description: "hihihihi",
   commandCategory: "no prefix",
   usages: "admin",
@@ -16,7 +16,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
     var msg = {
         body: "🫅 𝐎𝐖𝐍𝐄𝐑 𝐏𝐑𝐎𝐅𝐈𝐋𝐄 🫅",
         attachment: 
-fs.createReadStream(__dirname + `/noprefix/profile.png`)
+fs.createReadStream(__dirname + `)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🫅", event.messageID, (err) => {}, true)
